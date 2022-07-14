@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.8ms;
+    scroll-behavior: smooth;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.logo-title {
+    margin-left: 100px;
+    font-size: 53px;
+    font-weight: bold;
+    font-style: italic;
+    /* color: #262626; */
+    overflow: hidden;
+    border-right: .10em solid #FF8D8D;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .4rem;
+    animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+
+}
+@keyframes demo-typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes demo-cursor {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #FF8D8D;
+    }
+}
+.menu-items{
+    display: flex;
+    margin-right: 120px;
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+.menu-items li:hover{
+    color:red;
+    cursor: pointer;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.banner img {
+    width: 100%;
+}
+.banner-description{
+    margin-left: 50px;
+}
+.banner-text{
+    color: red;
+    font-size: 24px;
+}
+.title1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+}
+.text{
+    font-size: 20spx;
+    margin: 10px;
+}
+.banner-btn{
+    padding: 18px 38px;
+    background-color: rgb(244, 6, 45);
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+}
+.section-two{
+    margin-top: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.description {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px;
+    color: rgb(196, 205, 205);
+
+}
+.title2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+   
+    margin-bottom: 20px;
+}
+.card1{
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: .8ms;
+
+}
+.card1:hover{
+    border: 1px solid red;
+    margin-top: -20px;
+    transition: .8ms;
+}
+.gym-icon1{
+    width: 50px;
+}
+.about-container{
+    display: flex;
+    background-color: black;
+    color: white;
+  
+}
+.about-left{
+    width: 700px;
+   
+}
+.about-rights{
+    width: 700px;
+    border: 1px solid black;
+}
+.title3 {
+    font-size: 43px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+
+}
+.list-container {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    list-style: square;
+
+}
+.workout-image
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.workout-image1 img {
+    padding: 20px;
+    width: 150px;
+    height: 350px;
+    transform: skewY(-15deg);
+
+}
+
+.workout-image2 img {
+    width: 250px;
+    height: 350px;
+    transform: skewY(-15deg);
+}
+
+.about-btn{
+    text-decoration: none;
+    color: white;
+}
+.workout-section{
+    width: 650px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.workout-btn {
+    padding: 14px 18px;
+    background-color: rgb(244, 6, 45);
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.workout-btn:hover {
+    background-color: blue;
+
+}
+.services-container {
+    margin-top: 50px;
+    /* background-color:rgb(0, 0, 0); */
+    color: white;
+    color: black;
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.service-1 {
+    width: 350px;
+    border: 10px;
+    margin: 20px;
+    /* border: 1px solid rgb(33, 33, 33);  */
+    box-shadow: 8px 8px 16px rgb(17, 16, 16);
+    border-radius: 5px;
+    /* background-color:rgb(8, 8, 8) */
+    /* padding: 10px; */
+}
+
+.service-description {
+    padding: 15px;
+    line-height: 1.5;
+    /* color: rgb(16, 202, 202); */
+}
+
+.service-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.service-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-btn {
+    color: red;
+    font-size: 18px;
+
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.title4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.batch-image {
+    position: relative;
+}
+
+.batch-img {
+    top: -30px;
+    left: 85%;
+    width: 70px;
+    position: absolute;
+}
+.footer-container {
+    padding: 100px;
+    line-height: 1.7;
+    background-color: black;
+    
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    color:white;
+    
+}
+
+.footer h5 {
+    margin-top: 50px;
+    word-spacing: 25px;
+    font-size: 14px;
+    text-align: center;
+    color:white;
+
+}
+
+.footer h5 a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Alegreya SC', serif;
+}
+
+.footer h5 a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.footer p {
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+
+.footer p a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
